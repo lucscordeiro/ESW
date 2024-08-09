@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Gerenciador gerenciador = new Gerenciador();
-        gerenciador.mensagemInicial();
+        Chatbot chatbot = new Chatbot();
+        chatbot.iniciarAtendimento("12345", "54321");
     }
 }
